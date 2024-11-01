@@ -47,7 +47,6 @@ class House:
     def __iadd__(self, value):
         return self.add(value)
 
-# Пример выполняемого кода:
 h1 = House('ЖК Эльбрус', 10)
 h2 = House('ЖК Акация', 20)
 
